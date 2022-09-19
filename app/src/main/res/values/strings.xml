@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">StayIn</string>
+    <string name="stayin">StayIn</string>
+    <string name="plan_your_trip">Plan Your Trip</string>
+    <string name="plan_your_trip_choose_your_destination_npick_the_best_place_for_your_holiday">Plan your trip, choose your destination.\nPick the best place for your holiday.</string>
+    <string name="skip">SKIP</string>
+    <string name="next">NEXT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_the_date">Select The Date</string>
+    <string name="select_the_day_book_your_ticket_we_give_nyou_the_best_price_we_guarantied">Select the day, book your ticket. We give\nyou the best price. We guarantied!</string>
+    <string name="enjoy_your_holiday_don_t_forget_to_take_na_photo_and_share_to_the_world">Enjoy your holiday! don\'t forget to take \na photo and share to the world</string>
+    <string name="let_s_go">let’s go!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="don_t_have_an_account_sign_up">Don’t have an account? Sign up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="i_agree_the">I agree the</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="register_now">Register Now</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="having_trouble_get_help">Having Trouble ? Get Help</string>
+    <string name="verification">Verification</string>
+    <string name="enter_code_here">Enter Code Here</string>
+    <string name="if_you_didn_t_receive_the_code">If you didn\'t receive the code?</string>
+    <string name="resend">Resend</string>
+    <string name="enjoy_your_trip">Enjoy Your Trip</string>
+</resources>
