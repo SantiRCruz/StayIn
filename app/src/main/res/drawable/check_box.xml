@@ -3,5 +3,5 @@
     <item android:state_checked="true"
         android:drawable="@drawable/check_full"/>
     <item android:state_checked="false"
-        android:drawable="@drawable/check_empty"/>
+        android:drawable="@drawable/check_gray"/>
 </selector>
