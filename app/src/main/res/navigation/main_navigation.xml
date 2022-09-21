@@ -32,5 +32,64 @@
         android:id="@+id/chooseDatesFragment"
         android:name="com.example.stayin.ui.main.ChooseDatesFragment"
         android:label="fragment_choose_dates"
-        tools:layout="@layout/fragment_choose_dates" />
+        tools:layout="@layout/fragment_choose_dates" >
+        <action
+            android:id="@+id/action_chooseDatesFragment_to_detailPlaceFragment"
+            app:destination="@id/detailPlaceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailPlaceFragment"
+        android:name="com.example.stayin.ui.main.DetailPlaceFragment"
+        android:label="fragment_detail_place"
+        tools:layout="@layout/fragment_detail_place" >
+        <action
+            android:id="@+id/action_detailPlaceFragment_to_bookingNowFragment"
+            app:destination="@id/bookingNowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookingNowFragment"
+        android:name="com.example.stayin.ui.main.BookingNowFragment"
+        android:label="fragment_booking_now"
+        tools:layout="@layout/fragment_booking_now" >
+        <action
+            android:id="@+id/action_bookingNowFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.stayin.ui.main.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment" >
+        <action
+            android:id="@+id/action_paymentFragment_to_cardDetailFragment"
+            app:destination="@id/cardDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardDetailFragment"
+        android:name="com.example.stayin.ui.main.CardDetailFragment"
+        android:label="fragment_card_detail"
+        tools:layout="@layout/fragment_card_detail" >
+        <action
+            android:id="@+id/action_cardDetailFragment_to_bookingDetailsFragment"
+            app:destination="@id/bookingDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookingDetailsFragment"
+        android:name="com.example.stayin.ui.main.BookingDetailsFragment"
+        android:label="fragment_booking_details"
+        tools:layout="@layout/fragment_booking_details" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.stayin.ui.main.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_notificationsFragment"
+            app:destination="@id/notificationsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.example.stayin.ui.main.profile.NotificationsFragment"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
 </navigation>

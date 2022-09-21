@@ -4,5 +4,5 @@
     <item android:title="" android:icon="@drawable/favorites"/>
     <item android:title="" />
     <item android:id="@+id/toursFragment" android:title="" android:icon="@drawable/calendar"/>
-    <item android:title="" android:icon="@drawable/profile"/>
+    <item android:id="@+id/profileFragment" android:title="" android:icon="@drawable/profile"/>
 </menu>
