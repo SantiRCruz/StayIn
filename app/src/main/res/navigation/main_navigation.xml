@@ -86,10 +86,47 @@
         <action
             android:id="@+id/action_profileFragment_to_notificationsFragment"
             app:destination="@id/notificationsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_languageFragment"
+            app:destination="@id/languageFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_inviteFriendsFragment"
+            app:destination="@id/inviteFriendsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_myTripFragment"
+            app:destination="@id/myTripFragment" />
     </fragment>
     <fragment
         android:id="@+id/notificationsFragment"
         android:name="com.example.stayin.ui.main.profile.NotificationsFragment"
         android:label="fragment_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.example.stayin.ui.main.profile.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" />
+    <fragment
+        android:id="@+id/inviteFriendsFragment"
+        android:name="com.example.stayin.ui.main.profile.InviteFriendsFragment"
+        android:label="fragment_invite_friends"
+        tools:layout="@layout/fragment_invite_friends" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.stayin.ui.main.profile.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/myTripFragment"
+        android:name="com.example.stayin.ui.main.profile.MyTripFragment"
+        android:label="fragment_my_trip"
+        tools:layout="@layout/fragment_my_trip" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.stayin.ui.main.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" />
 </navigation>

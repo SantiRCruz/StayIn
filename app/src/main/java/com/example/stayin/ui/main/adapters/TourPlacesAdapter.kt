@@ -42,7 +42,6 @@ class TourPlacesAdapter (private val list: List<ToursPlaces>) : RecyclerView.Ada
                     Navigation.findNavController(binding.root).navigate(R.id.action_placesFragment_to_chooseDatesFragment)
                 }
                 bottomDialog.show()
-
             }
         }
     }

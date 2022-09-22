@@ -22,4 +22,15 @@
     <color name="greenGra">#08AF7C</color>
     <color name="yellowGra">#CB7E19</color>
     <color name="redGra">#BE0D0D</color>
+
+<!--    language-->
+    <color name="darkOrangeLang">#EC5E32</color>
+    <color name="mediumBlueLang">#5C8BD1</color>
+    <color name="blueLang">#1ECCC0</color>
+    <color name="orangeLang">#EC9B32</color>
+    <color name="greenLang">#45EC32</color>
+    <color name="redLang">#EC3232</color>
+    <color name="purpleLang">#8232EC</color>
+    <color name="darkBlueLang">#3245EC</color>
+
 </resources>

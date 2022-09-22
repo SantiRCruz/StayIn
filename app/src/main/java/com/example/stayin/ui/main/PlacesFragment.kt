@@ -1,15 +1,19 @@
 package com.example.stayin.ui.main
 
 import android.os.Bundle
+import android.view.LayoutInflater
 import androidx.fragment.app.Fragment
 import android.view.View
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.stayin.R
 import com.example.stayin.data.models.People
 import com.example.stayin.data.models.ToursPlaces
 import com.example.stayin.databinding.FragmentPlacesBinding
+import com.example.stayin.databinding.SheetDetailPlaceBinding
 import com.example.stayin.ui.main.adapters.BlogAdapter
 import com.example.stayin.ui.main.adapters.TourPlacesAdapter
+import com.google.android.material.bottomsheet.BottomSheetDialog
 
 
 class PlacesFragment : Fragment(R.layout.fragment_places) {
@@ -33,5 +37,4 @@ class PlacesFragment : Fragment(R.layout.fragment_places) {
         binding.rvPlaces.adapter = TourPlacesAdapter(placesList)
         binding.rvPlaces.layoutManager = LinearLayoutManager(requireContext())
     }
-
 }

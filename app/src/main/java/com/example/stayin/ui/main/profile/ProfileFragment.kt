@@ -19,6 +19,10 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
         private fun clicks() {
                 binding.llNotification.setOnClickListener { findNavController().navigate(R.id.action_profileFragment_to_notificationsFragment) }
+                binding.llLanguage.setOnClickListener { findNavController().navigate(R.id.action_profileFragment_to_languageFragment) }
+                binding.llInviteFriends.setOnClickListener { findNavController().navigate(R.id.action_profileFragment_to_inviteFriendsFragment) }
+                binding.llSettings.setOnClickListener { findNavController().navigate(R.id.action_profileFragment_to_settingsFragment) }
+                binding.llTours.setOnClickListener { findNavController().navigate(R.id.action_profileFragment_to_myTripFragment) }
         }
 
 }
